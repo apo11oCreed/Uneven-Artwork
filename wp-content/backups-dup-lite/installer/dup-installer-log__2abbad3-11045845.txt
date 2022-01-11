@@ -1,0 +1,434 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 05:05:49
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.1.33                                |7.4.12
+OS__________________: Linux                                 |Darwin
+CREATED_____________: 2022-01-11 04:58:45
+WP VERSION__________: 5.7.5
+DUP VERSION_________: 1.4.3
+DB__________________: 10.3.32
+DB TABLES___________: 15
+DB ROWS_____________: 300
+DB FILE SIZE________: 1.7MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.12 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.12 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1
+DOC ROOT____________: "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/Uneven-Artwork/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork/20220111_unevenartwork_[HASH]_20220111045845_archive.zip"
+SIZE________________: 29.53MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 05:05:53 - RUNTIME: 4.3582 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) [CODE:2|FILE:/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'root'@'localhost' (using password: NO)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'mamp'@'localhost' (using password: NO) [CODE:2|FILE:/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'mamp'@'localhost' (using password: NO)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 05:12:12
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.32 -- Build Server: 10.3.32
+FILE SIZE:	dup-database__[HASH].sql (487.02KB)
+TIMEOUT:	5000
+MAXPACK:	134217728
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.32] is less than the build version [10.3.32].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	140
+
+wp_SH_CD_SHORTCODES: (1)
+wp_SH_CD_SHORTCODES_MULTISITE: (0)
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (174)
+wp_postmeta: (28)
+wp_posts: (20)
+wp_term_relationships: (0)
+wp_term_taxonomy: (1)
+wp_termmeta: (0)
+wp_terms: (1)
+wp_usermeta: (54)
+wp_users: (2)
+Removed '21' cache/transient rows
+
+INSERT DATA RUNTIME: 0.8111 sec.
+STEP-2 COMPLETE @ 05:12:13 - RUNTIME: 0.8567 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 05:12:24
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Uneven Artwork"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/oodgoos1/public_html"
+path_new______________: "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+siteurl_______________: "http://localhost:8888/Uneven-Artwork"
+url_old_______________: "https://unevenartwork.com"
+url_new_______________: "http://localhost:8888/Uneven-Artwork"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_SH_CD_SHORTCODES"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oodgoos1/public_html" ======================> "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+	SEARCH  2:"\/home\/oodgoos1\/public_html" ===================> "\/Users\/nelsoncorreia\/Sites\/localhost\/Uneven-Artwork"
+	SEARCH  3:"%2Fhome%2Foodgoos1%2Fpublic_html" ================> "%2FUsers%2Fnelsoncorreia%2FSites%2Flocalhost%2FUneven-Artwork"
+	SEARCH  4:"\home\oodgoos1\public_html" ======================> "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+	SEARCH  5:"\\home\\oodgoos1\\public_html" ===================> "\/Users\/nelsoncorreia\/Sites\/localhost\/Uneven-Artwork"
+	SEARCH  6:"%5Chome%5Coodgoos1%5Cpublic_html" ================> "%2FUsers%2Fnelsoncorreia%2FSites%2Flocalhost%2FUneven-Artwork"
+	SEARCH  7:"//unevenartwork.com" =============================> "//localhost:8888/Uneven-Artwork"
+	SEARCH  8:"\/\/unevenartwork.com" ===========================> "\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH  9:"%2F%2Funevenartwork.com" =========================> "%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+	SEARCH 10:"//www.unevenartwork.com" =========================> "//localhost:8888/Uneven-Artwork"
+	SEARCH 11:"\/\/www.unevenartwork.com" =======================> "\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH 12:"%2F%2Fwww.unevenartwork.com" =====================> "%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+	SEARCH 13:"https://localhost:8888/Uneven-Artwork" ===========> "http://localhost:8888/Uneven-Artwork"
+	SEARCH 14:"https:\/\/localhost:8888\/Uneven-Artwork" ========> "http:\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2FUneven-Artwork" => "http%3A%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+
+EVALUATE TABLE: "wp_SH_CD_SHORTCODES_MULTISITE"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   174][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oodgoos1/public_html" ======================> "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+	SEARCH  2:"\/home\/oodgoos1\/public_html" ===================> "\/Users\/nelsoncorreia\/Sites\/localhost\/Uneven-Artwork"
+	SEARCH  3:"%2Fhome%2Foodgoos1%2Fpublic_html" ================> "%2FUsers%2Fnelsoncorreia%2FSites%2Flocalhost%2FUneven-Artwork"
+	SEARCH  4:"\home\oodgoos1\public_html" ======================> "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+	SEARCH  5:"\\home\\oodgoos1\\public_html" ===================> "\/Users\/nelsoncorreia\/Sites\/localhost\/Uneven-Artwork"
+	SEARCH  6:"%5Chome%5Coodgoos1%5Cpublic_html" ================> "%2FUsers%2Fnelsoncorreia%2FSites%2Flocalhost%2FUneven-Artwork"
+	SEARCH  7:"//unevenartwork.com" =============================> "//localhost:8888/Uneven-Artwork"
+	SEARCH  8:"\/\/unevenartwork.com" ===========================> "\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH  9:"%2F%2Funevenartwork.com" =========================> "%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+	SEARCH 10:"//www.unevenartwork.com" =========================> "//localhost:8888/Uneven-Artwork"
+	SEARCH 11:"\/\/www.unevenartwork.com" =======================> "\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH 12:"%2F%2Fwww.unevenartwork.com" =====================> "%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+	SEARCH 13:"https://localhost:8888/Uneven-Artwork" ===========> "http://localhost:8888/Uneven-Artwork"
+	SEARCH 14:"https:\/\/localhost:8888\/Uneven-Artwork" ========> "http:\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2FUneven-Artwork" => "http%3A%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:    28][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oodgoos1/public_html" ======================> "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+	SEARCH  2:"\/home\/oodgoos1\/public_html" ===================> "\/Users\/nelsoncorreia\/Sites\/localhost\/Uneven-Artwork"
+	SEARCH  3:"%2Fhome%2Foodgoos1%2Fpublic_html" ================> "%2FUsers%2Fnelsoncorreia%2FSites%2Flocalhost%2FUneven-Artwork"
+	SEARCH  4:"\home\oodgoos1\public_html" ======================> "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+	SEARCH  5:"\\home\\oodgoos1\\public_html" ===================> "\/Users\/nelsoncorreia\/Sites\/localhost\/Uneven-Artwork"
+	SEARCH  6:"%5Chome%5Coodgoos1%5Cpublic_html" ================> "%2FUsers%2Fnelsoncorreia%2FSites%2Flocalhost%2FUneven-Artwork"
+	SEARCH  7:"//unevenartwork.com" =============================> "//localhost:8888/Uneven-Artwork"
+	SEARCH  8:"\/\/unevenartwork.com" ===========================> "\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH  9:"%2F%2Funevenartwork.com" =========================> "%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+	SEARCH 10:"//www.unevenartwork.com" =========================> "//localhost:8888/Uneven-Artwork"
+	SEARCH 11:"\/\/www.unevenartwork.com" =======================> "\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH 12:"%2F%2Fwww.unevenartwork.com" =====================> "%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+	SEARCH 13:"https://localhost:8888/Uneven-Artwork" ===========> "http://localhost:8888/Uneven-Artwork"
+	SEARCH 14:"https:\/\/localhost:8888\/Uneven-Artwork" ========> "http:\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2FUneven-Artwork" => "http%3A%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oodgoos1/public_html" ======================> "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+	SEARCH  2:"\/home\/oodgoos1\/public_html" ===================> "\/Users\/nelsoncorreia\/Sites\/localhost\/Uneven-Artwork"
+	SEARCH  3:"%2Fhome%2Foodgoos1%2Fpublic_html" ================> "%2FUsers%2Fnelsoncorreia%2FSites%2Flocalhost%2FUneven-Artwork"
+	SEARCH  4:"\home\oodgoos1\public_html" ======================> "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+	SEARCH  5:"\\home\\oodgoos1\\public_html" ===================> "\/Users\/nelsoncorreia\/Sites\/localhost\/Uneven-Artwork"
+	SEARCH  6:"%5Chome%5Coodgoos1%5Cpublic_html" ================> "%2FUsers%2Fnelsoncorreia%2FSites%2Flocalhost%2FUneven-Artwork"
+	SEARCH  7:"//unevenartwork.com" =============================> "//localhost:8888/Uneven-Artwork"
+	SEARCH  8:"\/\/unevenartwork.com" ===========================> "\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH  9:"%2F%2Funevenartwork.com" =========================> "%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+	SEARCH 10:"//www.unevenartwork.com" =========================> "//localhost:8888/Uneven-Artwork"
+	SEARCH 11:"\/\/www.unevenartwork.com" =======================> "\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH 12:"%2F%2Fwww.unevenartwork.com" =====================> "%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+	SEARCH 13:"https://localhost:8888/Uneven-Artwork" ===========> "http://localhost:8888/Uneven-Artwork"
+	SEARCH 14:"https:\/\/localhost:8888\/Uneven-Artwork" ========> "http:\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2FUneven-Artwork" => "http%3A%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oodgoos1/public_html" ======================> "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+	SEARCH  2:"\/home\/oodgoos1\/public_html" ===================> "\/Users\/nelsoncorreia\/Sites\/localhost\/Uneven-Artwork"
+	SEARCH  3:"%2Fhome%2Foodgoos1%2Fpublic_html" ================> "%2FUsers%2Fnelsoncorreia%2FSites%2Flocalhost%2FUneven-Artwork"
+	SEARCH  4:"\home\oodgoos1\public_html" ======================> "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+	SEARCH  5:"\\home\\oodgoos1\\public_html" ===================> "\/Users\/nelsoncorreia\/Sites\/localhost\/Uneven-Artwork"
+	SEARCH  6:"%5Chome%5Coodgoos1%5Cpublic_html" ================> "%2FUsers%2Fnelsoncorreia%2FSites%2Flocalhost%2FUneven-Artwork"
+	SEARCH  7:"//unevenartwork.com" =============================> "//localhost:8888/Uneven-Artwork"
+	SEARCH  8:"\/\/unevenartwork.com" ===========================> "\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH  9:"%2F%2Funevenartwork.com" =========================> "%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+	SEARCH 10:"//www.unevenartwork.com" =========================> "//localhost:8888/Uneven-Artwork"
+	SEARCH 11:"\/\/www.unevenartwork.com" =======================> "\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH 12:"%2F%2Fwww.unevenartwork.com" =====================> "%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+	SEARCH 13:"https://localhost:8888/Uneven-Artwork" ===========> "http://localhost:8888/Uneven-Artwork"
+	SEARCH 14:"https:\/\/localhost:8888\/Uneven-Artwork" ========> "http:\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2FUneven-Artwork" => "http%3A%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oodgoos1/public_html" ======================> "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+	SEARCH  2:"\/home\/oodgoos1\/public_html" ===================> "\/Users\/nelsoncorreia\/Sites\/localhost\/Uneven-Artwork"
+	SEARCH  3:"%2Fhome%2Foodgoos1%2Fpublic_html" ================> "%2FUsers%2Fnelsoncorreia%2FSites%2Flocalhost%2FUneven-Artwork"
+	SEARCH  4:"\home\oodgoos1\public_html" ======================> "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+	SEARCH  5:"\\home\\oodgoos1\\public_html" ===================> "\/Users\/nelsoncorreia\/Sites\/localhost\/Uneven-Artwork"
+	SEARCH  6:"%5Chome%5Coodgoos1%5Cpublic_html" ================> "%2FUsers%2Fnelsoncorreia%2FSites%2Flocalhost%2FUneven-Artwork"
+	SEARCH  7:"//unevenartwork.com" =============================> "//localhost:8888/Uneven-Artwork"
+	SEARCH  8:"\/\/unevenartwork.com" ===========================> "\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH  9:"%2F%2Funevenartwork.com" =========================> "%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+	SEARCH 10:"//www.unevenartwork.com" =========================> "//localhost:8888/Uneven-Artwork"
+	SEARCH 11:"\/\/www.unevenartwork.com" =======================> "\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH 12:"%2F%2Fwww.unevenartwork.com" =====================> "%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+	SEARCH 13:"https://localhost:8888/Uneven-Artwork" ===========> "http://localhost:8888/Uneven-Artwork"
+	SEARCH 14:"https:\/\/localhost:8888\/Uneven-Artwork" ========> "http:\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2FUneven-Artwork" => "http%3A%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    54][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oodgoos1/public_html" ======================> "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+	SEARCH  2:"\/home\/oodgoos1\/public_html" ===================> "\/Users\/nelsoncorreia\/Sites\/localhost\/Uneven-Artwork"
+	SEARCH  3:"%2Fhome%2Foodgoos1%2Fpublic_html" ================> "%2FUsers%2Fnelsoncorreia%2FSites%2Flocalhost%2FUneven-Artwork"
+	SEARCH  4:"\home\oodgoos1\public_html" ======================> "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+	SEARCH  5:"\\home\\oodgoos1\\public_html" ===================> "\/Users\/nelsoncorreia\/Sites\/localhost\/Uneven-Artwork"
+	SEARCH  6:"%5Chome%5Coodgoos1%5Cpublic_html" ================> "%2FUsers%2Fnelsoncorreia%2FSites%2Flocalhost%2FUneven-Artwork"
+	SEARCH  7:"//unevenartwork.com" =============================> "//localhost:8888/Uneven-Artwork"
+	SEARCH  8:"\/\/unevenartwork.com" ===========================> "\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH  9:"%2F%2Funevenartwork.com" =========================> "%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+	SEARCH 10:"//www.unevenartwork.com" =========================> "//localhost:8888/Uneven-Artwork"
+	SEARCH 11:"\/\/www.unevenartwork.com" =======================> "\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH 12:"%2F%2Fwww.unevenartwork.com" =====================> "%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+	SEARCH 13:"https://localhost:8888/Uneven-Artwork" ===========> "http://localhost:8888/Uneven-Artwork"
+	SEARCH 14:"https:\/\/localhost:8888\/Uneven-Artwork" ========> "http:\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2FUneven-Artwork" => "http%3A%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oodgoos1/public_html" ======================> "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+	SEARCH  2:"\/home\/oodgoos1\/public_html" ===================> "\/Users\/nelsoncorreia\/Sites\/localhost\/Uneven-Artwork"
+	SEARCH  3:"%2Fhome%2Foodgoos1%2Fpublic_html" ================> "%2FUsers%2Fnelsoncorreia%2FSites%2Flocalhost%2FUneven-Artwork"
+	SEARCH  4:"\home\oodgoos1\public_html" ======================> "/Users/nelsoncorreia/Sites/localhost/Uneven-Artwork"
+	SEARCH  5:"\\home\\oodgoos1\\public_html" ===================> "\/Users\/nelsoncorreia\/Sites\/localhost\/Uneven-Artwork"
+	SEARCH  6:"%5Chome%5Coodgoos1%5Cpublic_html" ================> "%2FUsers%2Fnelsoncorreia%2FSites%2Flocalhost%2FUneven-Artwork"
+	SEARCH  7:"//unevenartwork.com" =============================> "//localhost:8888/Uneven-Artwork"
+	SEARCH  8:"\/\/unevenartwork.com" ===========================> "\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH  9:"%2F%2Funevenartwork.com" =========================> "%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+	SEARCH 10:"//www.unevenartwork.com" =========================> "//localhost:8888/Uneven-Artwork"
+	SEARCH 11:"\/\/www.unevenartwork.com" =======================> "\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH 12:"%2F%2Fwww.unevenartwork.com" =====================> "%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+	SEARCH 13:"https://localhost:8888/Uneven-Artwork" ===========> "http://localhost:8888/Uneven-Artwork"
+	SEARCH 14:"https:\/\/localhost:8888\/Uneven-Artwork" ========> "http:\/\/localhost:8888\/Uneven-Artwork"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2FUneven-Artwork" => "http%3A%2F%2Flocalhost%3A8888%2FUneven-Artwork"
+--------------------------------------
+SCANNED:	Tables:15 	|	 Rows:281 	|	 Cells:1520 
+UPDATED:	Tables:3 	|	 Rows:29 	|	 Cells:32 
+ERRORS:		0 
+RUNTIME:	0.111800 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE WP_HOME "http://localhost:8888/Uneven-Artwork"
+	UPDATE WP_SITEURL "http://localhost:8888/Uneven-Artwork"
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME, WP_TEMP_DIR].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+MEDIA SETTINGS NOTICE: The table 'wp_options' has at least one the following values ['upload_url_path','upload_path'] 
+set please validate settings. These settings can be changed in the wp-admin by going to /wp-admin/options.php'
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 05:12:24 - RUNTIME: 0.4107 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Media settings notice
+	SECTIONS: general
+	LONG MSG: MEDIA SETTINGS NOTICE: The table 'wp_options' has at least one the following values ['upload_url_path','upload_path'] 
+set please validate settings. These settings can be changed in the wp-admin by going to /wp-admin/options.php'
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME, WP_TEMP_DIR].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
