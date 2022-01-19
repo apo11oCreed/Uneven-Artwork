@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+*,
+body,
+section,
+article,
+h1,h2,h3,h4,h5,h6,p,input{
+	font-family: 'Neucha', cursive !important;
+}
+
+iframe#google-slides {
+	min-width:100%;
+}
